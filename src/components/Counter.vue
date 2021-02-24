@@ -2,7 +2,7 @@
 <div class="flex flex-col items-center justify-around w-full h-screen space-y-10 bg-gray-400">
   <div class="flex flex-col items-center justify-center w-full">
     <!-- Main Content Block -->
-    <div class="w-1/4 p-4 space-y-4 bg-blue-700 rounded-md bg-opacity-80">
+    <div class="w-full p-4 space-y-4 bg-blue-700 md:rounded-md md:w-1/4 bg-opacity-80">
       <!-- Header -->
       <h1 class="text-2xl font-bold text-center text-gray-200">
         Pomodoro Time Tracker
@@ -40,7 +40,7 @@
       Spended Time: <b>{{ workingTime }}</b>
       </span>
   </div>
-  <div class="flex justify-center w-full p-10 font-bold bg-gray-700 text-8xl">
+  <div class="flex justify-center w-full p-10 text-3xl font-bold bg-gray-700 md:text-6xl">
         {{ turnTitle }}
     </div>
 </div>
